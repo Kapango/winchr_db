@@ -1,1 +1,3 @@
-echo 'Hello'
+database:
+  override:
+    - mysql -u ubuntu circle_test < schema.sql
